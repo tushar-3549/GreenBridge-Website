@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   {
@@ -27,7 +28,15 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 bg-white border-b z-50">
       <div className="container-custom h-20 flex items-center justify-between">
-        <Link href="/">
+        <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/green-bridge.jpg"
+            alt="GreenBridge Logo"
+            width={56}
+            height={32}
+            className="h-8 w-auto object-contain"
+            priority
+          />
           <span className="font-bold text-2xl text-green-700">GreenBridge</span>
         </Link>
 

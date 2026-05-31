@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutPage() {
   return (
     <main>
@@ -28,7 +30,15 @@ export default function AboutPage() {
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="bg-slate-200 h-[450px] rounded-3xl" />
+              <div className="relative h-[450px] rounded-3xl overflow-hidden border border-slate-100 bg-slate-50">
+                <Image
+                  src="/sustainable-grid.png"
+                  alt="GreenBridge Sustainable Grid Project"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
             </div>
 
             <div>
@@ -104,42 +114,54 @@ export default function AboutPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
-            <div className="bg-white border rounded-3xl p-8">
-              <div className="bg-slate-200 h-64 rounded-2xl" />
+            <div className="bg-white border border-slate-100 rounded-3xl p-8 shadow-sm">
+              <div className="bg-slate-50 h-48 rounded-2xl flex items-center justify-center text-green-700 mb-6">
+                <svg className="w-16 h-16 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
 
-              <h3 className="text-2xl font-semibold mt-6">Managing Director</h3>
+              <h3 className="text-2xl font-semibold mt-6 text-slate-800">Managing Director</h3>
 
-              <p className="text-green-700 mt-2">Leadership Team</p>
+              <p className="text-green-700 mt-1 text-sm font-medium uppercase tracking-wider">Leadership Team</p>
 
-              <p className="mt-4 text-slate-600">
+              <p className="mt-4 text-slate-600 leading-relaxed text-sm">
                 Responsible for strategic direction, partnership development and
                 company growth initiatives.
               </p>
             </div>
 
-            <div className="bg-white border rounded-3xl p-8">
-              <div className="bg-slate-200 h-64 rounded-2xl" />
+            <div className="bg-white border border-slate-100 rounded-3xl p-8 shadow-sm">
+              <div className="bg-slate-50 h-48 rounded-2xl flex items-center justify-center text-blue-700 mb-6">
+                <svg className="w-16 h-16 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
 
-              <h3 className="text-2xl font-semibold mt-6">Project Advisory</h3>
+              <h3 className="text-2xl font-semibold mt-6 text-slate-800">Project Advisory</h3>
 
-              <p className="text-green-700 mt-2">Technical Support</p>
+              <p className="text-green-700 mt-1 text-sm font-medium uppercase tracking-wider">Technical Support</p>
 
-              <p className="mt-4 text-slate-600">
+              <p className="mt-4 text-slate-600 leading-relaxed text-sm">
                 Supporting project planning, engineering coordination and
                 execution oversight.
               </p>
             </div>
 
-            <div className="bg-white border rounded-3xl p-8">
-              <div className="bg-slate-200 h-64 rounded-2xl" />
+            <div className="bg-white border border-slate-100 rounded-3xl p-8 shadow-sm">
+              <div className="bg-slate-50 h-48 rounded-2xl flex items-center justify-center text-amber-700 mb-6">
+                <svg className="w-16 h-16 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
 
-              <h3 className="text-2xl font-semibold mt-6">
+              <h3 className="text-2xl font-semibold mt-6 text-slate-800">
                 Strategic Partnerships
               </h3>
 
-              <p className="text-green-700 mt-2">Business Development</p>
+              <p className="text-green-700 mt-1 text-sm font-medium uppercase tracking-wider">Business Development</p>
 
-              <p className="mt-4 text-slate-600">
+              <p className="mt-4 text-slate-600 leading-relaxed text-sm">
                 Building local and international collaboration opportunities.
               </p>
             </div>

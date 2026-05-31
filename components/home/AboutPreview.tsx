@@ -1,10 +1,18 @@
+import Image from "next/image";
+
 export default function AboutPreview() {
   return (
     <section className="section-padding">
       <div className="container-custom">
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div>
-            <div className="bg-slate-200 h-[400px] rounded-2xl" />
+          <div className="relative h-[400px] w-full overflow-hidden rounded-2xl border bg-slate-50">
+            <Image
+              src="/corporate-solar.png"
+              alt="GreenBridge Corporate Office"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
           </div>
 
           <div>
