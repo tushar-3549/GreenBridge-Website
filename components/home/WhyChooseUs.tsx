@@ -21,16 +21,15 @@ export default function WhyChooseUs() {
   return (
     <section className="section-padding">
       <div className="container-custom">
-        <p className="text-green-700 font-semibold">WHY GREENBRIDGE</p>
+        <p className="text-green-700 font-semibold text-xs sm:text-sm uppercase tracking-wider">Why GreenBridge</p>
 
-        <h2 className="text-5xl font-bold mt-3">Strategic Positioning</h2>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3">Strategic Positioning</h2>
 
-        <div className="grid md:grid-cols-2 gap-8 mt-16">
+        <div className="grid sm:grid-cols-2 gap-6 md:gap-8 mt-10 md:mt-16">
           {items.map((item) => (
-            <div key={item.title} className="bg-white border p-8 rounded-2xl">
-              <h3 className="text-2xl font-semibold">{item.title}</h3>
-
-              <p className="mt-4 text-slate-600">{item.desc}</p>
+            <div key={item.title} className="bg-white border p-6 md:p-8 rounded-2xl">
+              <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">{item.title}</h3>
+              <p className="mt-4 text-slate-600 text-sm sm:text-base">{item.desc}</p>
             </div>
           ))}
         </div>

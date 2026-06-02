@@ -3,17 +3,20 @@ export default function PartnersPage() {
     <main>
       {/* Hero */}
 
-      <section className="bg-slate-900 text-white py-32">
+      {/* <section className="bg-slate-900 text-white py-32"> */}
+      <section className="bg-slate-900 text-white py-16 md:py-24 lg:py-32">
         <div className="container-custom">
           <p className="uppercase tracking-[4px] text-green-400">
             Partners & Network
           </p>
 
-          <h1 className="text-6xl font-bold mt-4 max-w-5xl">
+          {/* <h1 className="text-6xl font-bold mt-4 max-w-5xl"> */}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-4 max-w-5xl leading-tight">
             Building Strong Partnerships Across Industries And Markets
           </h1>
 
-          <p className="mt-8 text-xl text-slate-300 max-w-3xl">
+          {/* <p className="mt-8 text-xl text-slate-300 max-w-3xl"> */}
+          <p className="mt-6 text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl">
             GreenBridge collaborates with industry stakeholders, technology
             providers, consultants and project partners to support successful
             project development and execution.
@@ -27,9 +30,11 @@ export default function PartnersPage() {
         <div className="container-custom text-center">
           <p className="text-green-700 font-semibold">OUR NETWORK</p>
 
-          <h2 className="text-5xl font-bold mt-3">Collaborative Ecosystem</h2>
+          {/* <h2 className="text-5xl font-bold mt-3">Collaborative Ecosystem</h2> */}
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3">Collaborative Ecosystem</h2>
 
-          <p className="max-w-3xl mx-auto mt-8 text-slate-600">
+          {/* <p className="max-w-3xl mx-auto mt-8 text-slate-600"> */}
+          <p className="max-w-3xl mx-auto mt-6 text-slate-600 text-sm sm:text-base">
             We believe sustainable growth is built through strong partnerships.
             Our network includes technical experts, EPC firms, consultants and
             strategic collaborators who contribute to successful outcomes.
@@ -40,10 +45,11 @@ export default function PartnersPage() {
       {/* OEMs */}
 
       <section className="pb-28">
-        <div className="container-custom">
+        <div className="container-custom text-center">
           <p className="text-green-700 font-semibold">OEM NETWORK</p>
 
-          <h2 className="text-5xl font-bold mt-3">
+          {/* <h2 className="text-5xl font-bold mt-3"> */}
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3">
             Technology & Equipment Partners
           </h2>
 
@@ -114,7 +120,7 @@ export default function PartnersPage() {
             ))}
           </div>
 
-          <p className="mt-8 text-slate-600 max-w-3xl">
+          <p className="mt-8 text-slate-600 max-w-3xl text-center mx-auto">
             GreenBridge seeks collaboration with reputable equipment
             manufacturers and technology providers supporting renewable energy
             and infrastructure development.
@@ -130,11 +136,13 @@ export default function PartnersPage() {
             <div>
               <p className="text-green-700 font-semibold">EPC ASSOCIATES</p>
 
-              <h2 className="text-5xl font-bold mt-3">
+              {/* <h2 className="text-5xl font-bold mt-3"> */}
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3 leading-tight">
                 Engineering, Procurement And Construction Network
               </h2>
 
-              <p className="mt-8 text-slate-600">
+              {/* <p className="mt-8 text-slate-600"> */}
+              <p className="mt-6 md:mt-8 text-slate-600 text-sm sm:text-base">
                 We engage with EPC organizations and technical specialists to
                 support project planning, coordination and implementation
                 activities.
@@ -173,7 +181,8 @@ export default function PartnersPage() {
         <div className="container-custom">
           <p className="text-green-700 font-semibold">CONSULTANTS</p>
 
-          <h2 className="text-5xl font-bold mt-3">
+          {/* <h2 className="text-5xl font-bold mt-3"> */}
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3">
             Advisory & Technical Expertise
           </h2>
 
@@ -208,18 +217,21 @@ export default function PartnersPage() {
 
       {/* Strategic Affiliations */}
 
-      <section className="bg-slate-900 text-white py-32">
+      {/* <section className="bg-slate-900 text-white py-32"> */}
+      <section className="bg-slate-900 text-white py-16 md:py-24 lg:py-32">
         <div className="container-custom">
           <div className="text-center">
             <p className="text-green-400 font-semibold">
               STRATEGIC AFFILIATIONS
             </p>
 
-            <h2 className="text-5xl font-bold mt-4">
+            {/* <h2 className="text-5xl font-bold mt-4"> */}
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-4">
               Expanding Opportunities Through Collaboration
             </h2>
 
-            <p className="max-w-3xl mx-auto mt-8 text-slate-300">
+            {/* <p className="max-w-3xl mx-auto mt-8 text-slate-300"> */}
+            <p className="max-w-3xl mx-auto mt-6 md:mt-8 text-slate-300 text-sm sm:text-base">
               GreenBridge actively develops relationships with organizations,
               industry groups and strategic partners that contribute to
               long-term project success and sustainable development.
@@ -264,11 +276,13 @@ export default function PartnersPage() {
 
       <section className="py-28">
         <div className="container-custom text-center">
-          <h2 className="text-5xl font-bold">
+          {/* <h2 className="text-5xl font-bold"> */}
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
             Interested In Partnering With GreenBridge?
           </h2>
 
-          <p className="mt-6 max-w-2xl mx-auto text-slate-600">
+          {/* <p className="mt-6 max-w-2xl mx-auto text-slate-600"> */}
+          <p className="mt-6 max-w-2xl mx-auto text-slate-600 text-sm sm:text-base">
             We welcome discussions with OEMs, EPC firms, consultants and
             strategic partners seeking opportunities in Bangladesh.
           </p>

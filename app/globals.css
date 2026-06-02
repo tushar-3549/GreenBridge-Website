@@ -12,11 +12,33 @@ body {
 .container-custom {
   max-width: 1280px;
   margin: auto;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
