@@ -37,7 +37,11 @@ export default function Navbar() {
             className="h-8 w-auto object-contain"
             priority
           />
-          <span className="font-bold text-2xl text-green-700">GreenBridge</span>
+          {/* <span className="font-bold text-2xl text-green-700">GreenBridge</span> */}
+          <span className="font-bold text-2xl">
+  <span className="text-green-700">Green</span>
+  <span className="text-[#0f172b]">Bridge</span>
+</span>
         </Link>
 
         <nav className="flex gap-8">

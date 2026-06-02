@@ -188,7 +188,8 @@ export default function ContactPage() {
           <div className="overflow-hidden rounded-3xl border bg-white">
             <iframe
               title="Google Map"
-              src="https://www.google.com/maps?q=Uttara,Dhaka,Bangladesh&output=embed"
+              // src="https://www.google.com/maps?q=Uttara,Dhaka,Bangladesh&output=embed"
+              src="https://www.google.com/maps?q=23.861125203452882,90.3995985806729&output=embed"
               width="100%"
               height="500"
               loading="lazy"

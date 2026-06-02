@@ -94,9 +94,10 @@ export default function AboutPage() {
               <h3 className="text-4xl font-bold mt-4">Vision</h3>
 
               <p className="mt-6 text-slate-600">
-                To become a trusted platform connecting global expertise,
+                {/* To become a trusted platform connecting global expertise,
                 technology and investment with Bangladesh’s long-term growth
-                opportunities.
+                opportunities. */}
+                Accelerate Bangladesh’s transition toward sustainable energy infrastructure by connecting global renewable energy expertise with efficient local execution, while creating long-term economic, environmental, and social impact.
               </p>
             </div>
           </div>
@@ -184,7 +185,7 @@ export default function AboutPage() {
               <div>
                 <p className="text-slate-400">Company Name</p>
 
-                <p className="mt-2 text-xl">GreenBridge Limited</p>
+                <p className="mt-2 text-xl">GreenBridge Energy & Infra Ltd.</p>
               </div>
 
               <div>
